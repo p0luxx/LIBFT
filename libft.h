@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/06 17:54:52 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/07 18:10:37 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/07 19:35:16 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -24,6 +24,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
+char	*ft_strnstr(char *big, char *small, size_t n);
+int		ft_atoi(const char *nptr);
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
