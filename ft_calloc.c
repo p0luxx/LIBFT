@@ -1,27 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/07 16:40:33 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/07 16:49:07 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/09 12:45:04 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/09 12:45:04 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
+void	*ft_calloc(size_t num, size_t size)
 {
-	size_t	i;
+	void	*res;
+	size_t	total;
 
-	i = 0;
-	while (i < n)
-	{
-		if (((unsigned char *)s1)[i] != ((unsigned char *)s2)[i])
-			return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
-		i++;
-	}
-	return (0);
+	res = NULL;
+	total = num * size;
+	if (num != 0 && size > (size_t)-1 / num)
+		return (NULL);
+	res = (void *)malloc(total);
+	if (!res)
+		return (NULL);
+	ft_bzero(res, total);
+	return (res);
 }

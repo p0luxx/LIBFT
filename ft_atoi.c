@@ -13,7 +13,7 @@
 #include "libft.h"
 
 /*
-int	ft_isdigit(int c)
+int ft_isdigit(int c)
 {
 	if (c >= '0' && '9' >= c)
 		return (c);
@@ -36,9 +36,9 @@ static int	ft_check(const char *str)
 
 int	ft_atoi(const char *nptr)
 {
-	int	i;
-	int	np;
-	int	res;
+	int		i;
+	int		np;
+	int		res;
 
 	i = 0;
 	np = ft_check(nptr);
@@ -55,11 +55,13 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * np);
 }
+
 /*
 #include <stdio.h>
 
-int	main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	printf("%d\n", ft_atoi(argv[1]));
 	return (0);
-}*/
+}
+*/
