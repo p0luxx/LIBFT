@@ -30,6 +30,7 @@ char	*ft_strnstr(char *big, char *small, size_t n);
 char	*ft_strdup(const char *s);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	*ft_strjoin(const char *s1, char const *s2);
+char	*ft_strtrim(const char *s1, const char *set);
 int		ft_atoi(const char *nptr);
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
