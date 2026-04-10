@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 12:31:28 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 13:06:28 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/10 13:09:15 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ static char	*reserver(size_t len_1, size_t len_2)
 char	*ft_strjoin(const char *s1, const char *s2)
 {
 	size_t	s1_len;
-	size_t	s2_len;
 	size_t	i;
 	char	*res;
 
@@ -33,14 +32,13 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	if (!s1 || !s2)
 		return (NULL);
 	s1_len = ft_strlen(s1);
-	s2_len = ft_strlen(s2);
-	res = reserver(s1_len, s2_len);
+	res = reserver(s1_len, ft_strlen(s2));
 	if (!res)
 		return (NULL);
 	while (s1[++i])
 		res[i] = s1[i];
 	i = -1;
-	while (s2[i])
+	while (s2[++i])
 		res[s1_len + i] = s2[i];
 	res[s1_len + i] = '\0';
 	return (res);
