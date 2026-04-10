@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 15:00:13 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 16:12:11 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/10 16:13:29 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ char	**ft_split(const char *s, char c)
 			i++;
 		if (s[i] != c && s[i])
 		{
-			res[++j] = ft_substr(s, i, ft_strlenchr(&s[i], c));
+			res[j] = ft_substr(s, i, ft_strlenchr(&s[i], c));
 			if (!res[j])
 				return (free_all(res));
 			j++;
@@ -90,8 +90,7 @@ char	**ft_split(const char *s, char c)
 	res[j] = NULL;
 	return (res);
 }
-
-
+/*
 #include <stdio.h>
 int	main(int argc, char **argv)
 {
@@ -106,4 +105,4 @@ int	main(int argc, char **argv)
 		}
 	}
 	return (0);
-}
+}*/
