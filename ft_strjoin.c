@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 12:31:28 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 12:55:50 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/10 12:57:29 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,11 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	char	*res;
 
 	i = 0;
+	s1_len = ft_strlen(s1);
+	s2_len = ft_strlen(s2);
 	res = reserver(s1_len, s2_len);
 	if (!res || !s1 || !s2)
 		return (NULL);
-	s1_len = ft_strlen(s1);
-	s2_len = ft_strlen(s2);
 	while (s1[i])
 	{
 		res[i] = s1[i];
