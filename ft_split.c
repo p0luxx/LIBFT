@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 15:00:13 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 16:05:28 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/10 16:06:06 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ char	**ft_split(const char *s, char c)
 		{
 			res[++j] = ft_substr(s, i, ft_strlenchr(&s[i], c));
 			if (!res[j])
-				return (((void **)free_all(res)));
+				return (((char **)free_all(res)));
 			j++;
 		}
 		i += ft_strlenchr(&s[i], c);
