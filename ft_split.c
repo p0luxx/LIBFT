@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 15:00:13 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 16:06:06 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/10 16:12:11 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ static size_t	ft_strlenchr(const char *s, char c)
 	return (len);
 }
 
-void	**free_all(char **s)
+char	**free_all(char **s)
 {
 	size_t	len;
 
@@ -82,7 +82,7 @@ char	**ft_split(const char *s, char c)
 		{
 			res[++j] = ft_substr(s, i, ft_strlenchr(&s[i], c));
 			if (!res[j])
-				return (((char **)free_all(res)));
+				return (free_all(res));
 			j++;
 		}
 		i += ft_strlenchr(&s[i], c);
@@ -91,7 +91,7 @@ char	**ft_split(const char *s, char c)
 	return (res);
 }
 
-/*
+
 #include <stdio.h>
 int	main(int argc, char **argv)
 {
@@ -106,4 +106,4 @@ int	main(int argc, char **argv)
 		}
 	}
 	return (0);
-}*/
+}
