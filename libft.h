@@ -14,10 +14,15 @@
 
 # include <stddef.h> // needed for size_t
 # include <stdlib.h> // needed for malloc & free
+# include <unistd.h> // needed for write
 
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dsize);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, char fd);
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
