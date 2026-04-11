@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/11 17:15:05 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/11 17:33:47 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/11 17:36:05 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,5 @@
 
 void	ft_putchar_fd(char c, int fd)
 {
-	if (!s)
-		return ;
 	write(fd, &c, 1);
 }
