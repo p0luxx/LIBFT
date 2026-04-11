@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 15:00:13 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 16:13:29 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/11 17:46:28 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,27 +14,21 @@
 
 size_t	ft_count_words(const char *s, char c)
 {
-	size_t	i;
 	size_t	words;
-	int		flag;
+	int		in_word;
 
-	i = 0;
-	flag = 0;
-	if (!*s)
-		return (0);
-	while (s[i] == c)
-		i++;
-	words = 1;
-	while (s[i])
+	words = 0;
+	in_word = 0;
+	while (*s)
 	{
-		if (s[i] == c && flag == 0)
-			flag = 1;
-		if (s[i] != c && flag == 1)
+		if (*s != c && in_word == 0)
 		{
-			flag = 0;
+			in_word = 1;
 			words++;
 		}
-		i++;
+		else if (*s == c)
+			in_word = 0;
+		s++;
 	}
 	return (words);
 }
@@ -49,15 +43,12 @@ static size_t	ft_strlenchr(const char *s, char c)
 	return (len);
 }
 
-char	**free_all(char **s)
+char	**free_all(char **s, size_t j)
 {
-	size_t	len;
-
-	len = 0;
-	while (s[len])
+	while (j > 0)
 	{
-		free(s[len]);
-		len++;
+		j--;
+		free(s[j]);
 	}
 	free(s);
 	return (NULL);
@@ -72,7 +63,7 @@ char	**ft_split(const char *s, char c)
 	i = 0;
 	j = 0;
 	res = (char **)malloc((ft_count_words(s, c) + 1) * sizeof(char *));
-	if (!res)
+	if (!res || !s)
 		return (NULL);
 	while (s[i])
 	{
@@ -82,7 +73,7 @@ char	**ft_split(const char *s, char c)
 		{
 			res[j] = ft_substr(s, i, ft_strlenchr(&s[i], c));
 			if (!res[j])
-				return (free_all(res));
+				return (free_all(res, j));
 			j++;
 		}
 		i += ft_strlenchr(&s[i], c);
