@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 18:15:47 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 18:49:43 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:43:10 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:43:13 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)

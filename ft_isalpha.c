@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 17:55:27 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 17:58:11 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/14 15:42:01 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/14 15:42:04 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 int	ft_isalpha(int c)
 {
 	if (c >= 'A' && 'Z' >= c)

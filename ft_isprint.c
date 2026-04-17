@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 17:54:03 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 17:54:08 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/14 15:42:54 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/14 15:42:57 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

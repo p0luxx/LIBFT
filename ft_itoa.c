@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/11 15:32:49 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/11 16:15:05 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:40:58 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:47:31 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 size_t	ft_count_digits(int nb)

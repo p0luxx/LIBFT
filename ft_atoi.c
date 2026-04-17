@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/07 18:54:22 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/07 19:44:01 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:40:03 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:40:07 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

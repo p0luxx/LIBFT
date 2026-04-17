@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/07 16:40:33 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/07 16:49:07 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:41:40 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:41:43 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

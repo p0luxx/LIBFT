@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 17:52:29 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 17:52:54 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/14 15:41:37 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/14 15:41:50 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

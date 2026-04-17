@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/09 12:45:04 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/09 12:45:04 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:40:41 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:40:44 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

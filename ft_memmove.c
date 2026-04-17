@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 19:08:43 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 19:16:38 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:42:46 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:42:49 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)

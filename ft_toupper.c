@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 17:54:35 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 17:54:42 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/14 15:43:16 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/14 15:43:32 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_toupper(int c)

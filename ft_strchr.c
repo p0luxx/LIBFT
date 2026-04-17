@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/07 16:55:20 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/07 17:12:11 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:43:36 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:43:39 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)

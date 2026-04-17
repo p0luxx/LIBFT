@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/06 17:53:40 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/06 17:53:50 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/14 15:42:44 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/14 15:42:47 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

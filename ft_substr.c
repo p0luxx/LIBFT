@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gorkgall <gorkgall@42barcelona.com>        +#+  +:+       +#+        */
+/*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/10 11:26:03 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/10 11:26:03 by gorkgall         ###   ########.fr       */
+/*   Created: 2026/04/15 13:44:55 by gorkgall          #+#    #+#             */
+/*   Updated: 2026/04/15 13:44:58 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 size_t	ft_strnlen(char *s, size_t start, size_t len)
