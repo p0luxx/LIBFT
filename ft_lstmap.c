@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-t_list	*ft_lstnew(void *content)
+static	t_list	*ft_lstnew(void *content)
 {
 	t_list	*new_list;
 
@@ -24,7 +24,7 @@ t_list	*ft_lstnew(void *content)
 	return (new_list);
 }
 
-void	ft_lstdelone(t_list *lst, void (*del)(void *))
+static	void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!lst || !del)
 		return ;
@@ -32,7 +32,7 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	free(lst);
 }
 
-void	ft_lstclear(t_list **lst, void (*del)(void *))
+static	void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*aux;
 

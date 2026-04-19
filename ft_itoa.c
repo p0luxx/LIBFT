@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-size_t	ft_count_digits(int nb)
+static	size_t	ft_count_digits(int nb)
 {
 	size_t	digits;
 
@@ -26,7 +26,7 @@ size_t	ft_count_digits(int nb)
 	return (digits);
 }
 
-char	*ft_reverse(char *str)
+static	char	*ft_reverse(char *str)
 {
 	char	a;
 	char	z;
