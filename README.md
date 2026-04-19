@@ -1,4 +1,4 @@
-_Este proyecto ha sido creado como parte del currículo de 42 por gorkgall._
+*Este proyecto ha sido creado como parte del currículo de 42 por gorkgall.*
 
 # Libft - Tu primera librería
 
