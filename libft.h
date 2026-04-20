@@ -6,7 +6,7 @@
 /*   By: gorkgall <gorkgall@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/06 17:54:52 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/17 15:40:15 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/20 10:10:52 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,20 +17,12 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-/*
-** DEFINICIÓN DE LA ESTRUCTURA PARA LISTAS
-** Debe estar arriba para que el compilador sepa qué es 't_list'
-** antes de leer los prototipos de las funciones.
-*/
 typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }	t_list;
 
-/*
-** FUNCIONES DE LA PARTE 1 Y 2
-*/
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
@@ -50,7 +42,7 @@ char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
-char	*ft_strnstr(const char *big, const char *little, size_t len);
+char	*ft_strnstr(char *big, char *small, size_t len);
 int		ft_atoi(const char *nptr);
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *s);
@@ -67,9 +59,6 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 
-/*
-** FUNCIONES DE LA PARTE 3 (LISTAS)
-*/
 t_list	*ft_lstnew(void *content);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 int		ft_lstsize(t_list *lst);

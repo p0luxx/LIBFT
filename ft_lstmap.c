@@ -6,12 +6,13 @@
 /*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 11:48:58 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/17 13:31:08 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/20 10:19:07 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/*
 static	t_list	*ft_lstnew(void *content)
 {
 	t_list	*new_list;
@@ -44,7 +45,7 @@ static	void	ft_lstclear(t_list **lst, void (*del)(void *))
 		ft_lstdelone(*lst, del);
 		*lst = aux;
 	}
-}
+}*/
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

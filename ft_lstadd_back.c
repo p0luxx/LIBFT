@@ -6,12 +6,13 @@
 /*   By: gorkgall <gorkgall@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 10:01:32 by gorkgall          #+#    #+#             */
-/*   Updated: 2026/04/16 10:17:28 by gorkgall         ###   ########.fr       */
+/*   Updated: 2026/04/20 10:17:09 by gorkgall         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/*
 static	t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
@@ -19,7 +20,7 @@ static	t_list	*ft_lstlast(t_list *lst)
 	while (lst -> next != NULL)
 		lst = lst -> next;
 	return (lst);
-}
+}*/
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
